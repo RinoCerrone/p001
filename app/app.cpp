@@ -9,6 +9,10 @@ namespace vsite::oop::p1 {
         double result=pow(a,b);
         return result;
     }
+    bool f2(unsigned long long x,unsigned long long y){
+        if((x<y)==true)return false;
+        if((x<y)==false)return true;
+    }
     
 
 
