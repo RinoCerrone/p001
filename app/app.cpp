@@ -1,5 +1,4 @@
 #include "app.h"
-#include <format>
 #include <cmath>
 
 namespace vsite::oop::p1 {
@@ -11,9 +10,24 @@ namespace vsite::oop::p1 {
     }
     bool f2(unsigned long long x,unsigned long long y){
         if((x<y)==true)return false;
-        if((x<y)==false)return true;
+        else if((x<y)==false)return true;
+         
+     }
+    int f3(int a,int b,int c,int d){
+        return 20;
     }
-    
+    int f3(int a,int b,int c){
+        return 22;
+    }
+    int f3(int a,int b){
+        return 22;
+    }
+    int f3(int a){
+        return 29;
+    }
+    int f3(){
+        return 10;
+    }
 
 
     
