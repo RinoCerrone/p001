@@ -9,11 +9,18 @@ namespace vsite::oop::p1 {
         
         return pow(a,b);
     }
-    bool f2(){
+    bool f2(bool b){
         
          
      }
-    int f3(){}
+    int f3(int arr[],int size){
+
+
+    }
+    string f4();
+    bool f5();
+    string f6(int a,int b,string s);
+
   
 
 
