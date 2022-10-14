@@ -9,7 +9,9 @@ namespace vsite::oop::p1
     double f1(int a,int b);
     bool f2(bool b);
     int f3(int a,int b,int c,int d);
-    string f4();
+    string f4(int a);
+    string f4(bool b);
+    string f4(double  a);
     bool f5(string s,int a);
     string f6(int a,int b,string s);
 
