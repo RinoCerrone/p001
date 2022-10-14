@@ -15,20 +15,16 @@ namespace vsite::oop::p1 {
         return a+b+c+d;
     }
     string f4(int a){
-
-
+       return typeid(a).name();
     }
     string f4(bool b){
-
-
+        return typeid(b).name();
     }
     string f4(double a){
-
-
+        return typeid(a).name();
     }
     bool f5(string s,int a){
-
-
+        if(a>0)return true;
     }
     string f6(int a,int b,string s){
 
