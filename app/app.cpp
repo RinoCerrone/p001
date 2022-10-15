@@ -24,9 +24,16 @@ namespace vsite::oop::p1 {
         return "double";
     }
     bool f5(std::string &s,int a){
+        
+        if((a<=10)&&(a>0))std::string s.append(to_string(a));
+        else if(a>10)std::string s.append(tostring(a%10));
         if(a>0)return true;
+        else return false;
+        
     }
-    std::string f6(int a,int b,std::ostream&){
+    std::string f6(int a,int b,std::ostream& ss){
+
+
 
 
     }

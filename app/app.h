@@ -11,9 +11,9 @@ namespace vsite::oop::p1
     int f3(int a,int b,int c,int d);
     std::string f4(int a);
     std::string f4(bool b);
-    std::string f4(double  a);
-    bool f5(string &s,int a);
-    std::string f6(int a,int b,std::ostream&);
+    std::string f4(double a);
+    bool f5(std::string &s,int a);
+    std::string f6(int a,int b,std::ostream& ss);
 
     
     
