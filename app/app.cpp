@@ -14,19 +14,19 @@ namespace vsite::oop::p1 {
     int f3(int a=1,int b=2,int c=3,int d=4){
         return a+b+c+d;
     }
-    string f4(int a){
-       return typeid(a).name();
+    std::string f4(int a){
+       return "int";
     }
-    string f4(bool b){
-        return typeid(b).name();
+    std::string f4(bool b){
+        return "bool";
     }
-    string f4(double a){
-        return typeid(a).name();
+    std::string f4(double a){
+        return "double";
     }
-    bool f5(string s,int a){
+    bool f5(std::string &s,int a){
         if(a>0)return true;
     }
-    string f6(int a,int b,string s){
+    std::string f6(int a,int b,std::ostream&){
 
 
     }
