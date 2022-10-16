@@ -25,15 +25,15 @@ namespace vsite::oop::p1 {
     }
     bool f5(std::string &s,int a){
         
-        if((a<=10)&&(a>0))s.append(to_string(a));
-        if(a>10)s.append(tostring(a%10));
-        if(a>0)return true;
-        else return false;
+        s+=std::to_string(n%10);
+        if(a<=0)
+           return false;
+        return true;
         
     }
-    std::string f6(int a,int b,std::ostream& ss){
+    void f6(int a,int b,std::ostream& ss){
 
-            ss<<tostring(a)<<"\n"<<tostring(b);
+            ss<<a<<"\n"<<b;
 
 
     }
