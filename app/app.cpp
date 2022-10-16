@@ -25,7 +25,7 @@ namespace vsite::oop::p1 {
     }
     bool f5(std::string &s,int a){
         
-        s+=std::to_string(n%10);
+        s+=std::to_string(a%10);
         if(a<=0)
            return false;
         return true;
