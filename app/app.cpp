@@ -11,7 +11,7 @@ namespace vsite::oop::p1 {
         return !b;
          
      }
-    int f3(int a=1,int b=2,int c=3,int d=4){
+    int f3(int a,int b,int c,int d){
         return a+b+c+d;
     }
     std::string f4(int a){
